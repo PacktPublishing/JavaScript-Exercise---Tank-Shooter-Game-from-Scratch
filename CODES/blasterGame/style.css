@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body {}
+
+.gamePlayArea {
+    width: 800px;
+    height: 600px;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.dashboard {
+    color: white;
+    font-size: 2em;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.dashboard > div {
+    width: 48%;
+    text-align: right;
+    display: inline-block;
+}
+
+.progress {
+    height: 20px;
+    width: 300px;
+    background-color: #333;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.progress-bar {
+    background-color: greenyellow;
+    width: 100%;
+    height: 20px;
+    border-radius: 25px;
+}
+
+#gameOverEle {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    left: 100px;
+    background-color: #333;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.btnStart {
+    padding: 15px;
+    border: 1px solid white;
+    background-color: red;
+    font-size: 3em;
+}
+
+#container {
+    background-color: black;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+}
+
+.base {
+    border-radius: 5px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 380px;
+    top: 280px;
+    background-color: #333;
+    color: white;
+    margin: auto;
+}
+
+.box {
+    transform: rotate(-130deg);
+    position: absolute;
+    left: 385px;
+    top: 285px;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.turret{
+    position: absolute;
+    height:100%;
+    width:40%;
+    margin-left: 30%;
+    bottom:35%;
+    border-radius:  5px;
+    background-color: darkgrey;
+}
+
+.fireme{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgba(255,255,0,0.8);
+    border-radius: 50px;
+    z-index: 1;
+}
+
+
+.baddy{
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+    border: 1px dotted #555;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 25px;
+    
+    
+    
+}
+
+
+
